@@ -105,19 +105,6 @@ function OnMouseDownManager(event) {
     if (event.buttons === 1)
     {
         const moveable = getMoveable();
-        const x = event.clientX;
-        const y = event.clientY;
-
-        
-    }
-}
-
-function OnMouseDownManager(event) {
-    console.log(event);
-    // left mouse button down
-    if (event.buttons === 1)
-    {
-        const moveable = getMoveable();
         
         const moveable_rect = moveable.getClientRects()[0];
         const valid_bounds = valid_bounds_for(moveable_rect);
