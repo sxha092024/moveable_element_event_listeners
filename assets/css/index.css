@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.moveable {
+    position: absolute;
+    background-color: #7f5999;
+    height: 100px;
+    width: 100px;
+}
