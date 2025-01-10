@@ -158,16 +158,7 @@ function animation_step(time) {
         viewport_height - moveable_rect.height,
     ];
     let speed = 1.0 * state.timescale_factor;
-    // console.log(
-    //     `
-    //     start: ${state.start}
-    //     time: ${state.time}
-    //     delta: ${delta}
-    //     speed: ${speed}
-    //     diagonal_speed: ${speed / Math.SQRT2}
-    //     delta_speed: ${speed * delta}
-    //     delta_diagonal_speed: ${(speed / Math.SQRT2) * delta}
-    //     `);
+    
     let x = moveable_rect.x;
     let y = moveable_rect.y;
 
